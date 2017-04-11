@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def dodawanie():
 	a = int(input('Podaj pierwsza liczbe'))
 	b = int(input('Podaj druga liczbe'))
@@ -8,3 +9,12 @@ def get_help():
 	
 get_help()	
 dodawanie()
+=======
+def dodawanie(a,b):
+	wynik=a+b
+	return wynik
+
+zm1=int(input())
+zm2=int(input())	
+print(dodawanie(zm1,zm2))
+>>>>>>> zmiana_funkcji_dodawania
